@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^10.0.0",
+    "mocha": "^11.8.0",
     "nyc": "^15.1.0",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
