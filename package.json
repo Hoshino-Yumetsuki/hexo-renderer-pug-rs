@@ -28,7 +28,7 @@
     "pug-rs": "^1.0.0-beta.1"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
+    "chai": "^6.2.2",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
     "oxfmt": "^0.64.0",
