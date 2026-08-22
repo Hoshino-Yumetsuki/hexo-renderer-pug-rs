@@ -1,0 +1,42 @@
+{
+  "name": "hexo-renderer-pug-rs",
+  "version": "1.0.0",
+  "description": "Pug renderer plugin for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "format": "oxfmt",
+    "lint": "oxlint",
+    "lint-fix": "oxlint --fix && oxfmt",
+    "test": "mocha test/index.js",
+    "test-cov": "nyc --reporter=lcovonly npm run test"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "repository": "hexojs/hexo-renderer-pug",
+  "keywords": [
+    "hexo",
+    "pug",
+    "renderer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "pug-rs": "^1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "oxfmt": "^0.64.0",
+    "oxlint": "^1.79.0",
+    "oxlint-tsgolint": "^7.0.2001"
+  },
+  "engines": {
+    "node": ">=12.4.0"
+  },
+  "packageManager": "yarn@4.18.0+sha512.fcb8716fe7cd0eece141ffc18b92193a9df9204c1ba83189c288835223fc0bbe64af473bab0d5e9927a7daeb5caf2bb07eb2787cc9338ca040ea125f2a1f2f7e"
+}
