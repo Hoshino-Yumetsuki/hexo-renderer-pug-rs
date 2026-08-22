@@ -1,7 +1,7 @@
 {
   "name": "hexo-renderer-pug-rs",
   "version": "1.0.0",
-  "description": "Pug renderer plugin for Hexo",
+  "description": "Pug renderer for Hexo written in rust.",
   "main": "index.js",
   "scripts": {
     "format": "oxfmt",
