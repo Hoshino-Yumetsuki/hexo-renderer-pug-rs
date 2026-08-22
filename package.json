@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-pug-rs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pug renderer for Hexo written in rust.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "pug-rs": "^1.0.0-beta.2"
+    "pug-rs": "^1.0.0-beta.3"
   },
   "devDependencies": {
     "chai": "^6.2.2",
