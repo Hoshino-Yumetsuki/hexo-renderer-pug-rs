@@ -1168,7 +1168,7 @@ __metadata:
     oxfmt: "npm:^0.64.0"
     oxlint: "npm:^1.79.0"
     oxlint-tsgolint: "npm:^7.0.2001"
-    pug-rs: "npm:^1.0.0-beta.4"
+    pug-rs: "npm:^1.0.0-beta.5"
   languageName: unknown
   linkType: soft
 
@@ -1889,15 +1889,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pug-rs@npm:^1.0.0-beta.4":
-  version: 1.0.0-beta.4
-  resolution: "pug-rs@npm:1.0.0-beta.4"
+"pug-rs@npm:^1.0.0-beta.5":
+  version: 1.0.0-beta.5
+  resolution: "pug-rs@npm:1.0.0-beta.5"
   dependencies:
     "@emnapi/core": "npm:^1.11.3"
     "@emnapi/runtime": "npm:^1.11.3"
     "@napi-rs/wasm-runtime": "npm:^1.2.3"
     with: "npm:^7.0.2"
-  checksum: 10c0/b61328be7ea5cd680c2d801d1e0a7dbe7be55d957a38f1ea1711fcb67856411ff51169a727f51dbd05e44cefcb142b43bc2b67f29217c75cf0516f08d065906a
+  checksum: 10c0/b01e0feabd9e075572436a56ae654ec5533cf6646b3a018a4fbbd68d0699f565a127b342df8a48f7b7e0be07d1e21a123d40ca412afabeb567fb20743fd9bef7
   languageName: node
   linkType: hard
 
